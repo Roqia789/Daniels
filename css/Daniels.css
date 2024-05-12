@@ -1,0 +1,609 @@
+:root {
+    --main-color: rgb(116, 129, 130) !important;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+    font-size: 15px;
+}
+.navbar-nav .home {
+    position: relative;
+}
+.navbar-nav .home::after {
+    content: " ";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    left: 8px;
+    bottom: 8px;
+    background-color: #fbfbff;
+}
+
+#Home {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../imgs/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: aliceblue;
+    text-align: center;
+}
+
+.content .animation::after {
+    content: "|";
+    animation: typing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+
+    1% {
+        content: "D|";
+    }
+
+    2% {
+        content: "De|";
+    }
+
+    3% {
+        content: "Des|";
+    }
+
+    4% {
+        content: "Desi|";
+    }
+
+    5% {
+        content: "Desig|";
+    }
+
+    7% {
+        content: "Design|";
+    }
+
+    8% {
+        content: "Designe|";
+    }
+
+    9% {
+        content: "Designer|";
+    }
+
+    10% {
+        content: "Designer|";
+    }
+
+    15% {
+        content: "Designer|";
+    }
+
+    16% {
+        content: "Designer|";
+    }
+
+    17% {
+        content: "Designe|";
+    }
+
+    18% {
+        content: "Design|";
+    }
+
+    19% {
+        content: "Desig|";
+    }
+
+    20% {
+        content: "Desi|";
+    }
+
+    21% {
+        content: "Des|";
+    }
+
+    22% {
+        content: "De|";
+    }
+
+    23% {
+        content: "De|";
+    }
+
+    24% {
+        content: "D|";
+    }
+
+    25% {
+        content: "|";
+    }
+
+    26% {
+        content: "|";
+    }
+
+    27% {
+        content: "|";
+    }
+
+    28% {
+        content: "|";
+    }
+
+    29% {
+        content: "D|";
+    }
+
+    30% {
+        content: "De|";
+    }
+
+    31% {
+        content: "Dev|";
+    }
+
+    32% {
+        content: "Deve|";
+    }
+
+    33% {
+        content: "Devel|";
+    }
+
+    34% {
+        content: "Develo|";
+    }
+
+    35% {
+        content: "Develop|";
+    }
+
+    36% {
+        content: "Develope|";
+    }
+
+    37% {
+        content: "Developer|";
+    }
+
+    38% {
+        content: "Developer|";
+    }
+
+    39% {
+        content: "Developer|";
+    }
+
+    40% {
+        content: "Developer|";
+    }
+
+    41% {
+        content: "Develope|";
+    }
+
+    42% {
+        content: "Develop|";
+    }
+
+    43% {
+        content: "Develo|";
+    }
+
+    44% {
+        content: "Devel|";
+    }
+
+    45% {
+        content: "Deve|";
+    }
+
+    46% {
+        content: "Dev|";
+    }
+
+    47% {
+        content: "De|";
+    }
+
+    48% {
+        content: "D|";
+    }
+
+    49% {
+        content: "|";
+    }
+
+    50% {
+        content: "|";
+    }
+
+    51% {
+        content: "|";
+    }
+
+    52% {
+        content: "|";
+    }
+
+    53% {
+        content: "L|";
+    }
+
+    54% {
+        content: "La|";
+    }
+
+    55% {
+        content: "Lar|";
+    }
+
+    56% {
+        content: "Larr|";
+    }
+
+    57% {
+        content: "Larry|";
+    }
+
+    58% {
+        content: "Larry |";
+    }
+
+    59% {
+        content: "Larry D|";
+    }
+
+    60% {
+        content: "Larry Da|";
+    }
+
+    61% {
+        content: "Larry Dan|";
+    }
+
+    62% {
+        content: "Larry Dani|";
+    }
+
+    63% {
+        content: "Larry Danie|";
+    }
+
+    64% {
+        content: "Larry Daniel|";
+    }
+
+    65% {
+        content: "Larry Daniels|";
+    }
+
+    66% {
+        content: "Larry Daniels|";
+    }
+
+    67% {
+        content: "Larry Daniels|";
+    }
+
+    68% {
+        content: "Larry Daniels|";
+    }
+
+    69% {
+        content: "Larry Daniel|";
+    }
+
+    70% {
+        content: "Larry Danie|";
+    }
+
+    71% {
+        content: "Larry Dani|";
+    }
+
+    72% {
+        content: "Larry Dan|";
+    }
+
+    73% {
+        content: "Larry Da|";
+    }
+
+    74% {
+        content: "Larry D|";
+    }
+
+    75% {
+        content: "Larry |";
+    }
+
+    76% {
+        content: "Larry|";
+    }
+
+    77% {
+        content: "Larr|";
+    }
+
+    78% {
+        content: "Lar|";
+    }
+
+    79% {
+        content: "La|";
+    }
+
+    80% {
+        content: "L|";
+    }
+
+    81% {
+        content: "|";
+    }
+
+    82% {
+        content: "|";
+    }
+
+    83% {
+        content: "|";
+    }
+
+    84% {
+        content: "|";
+    }
+}
+
+.fa-brands {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    color: aliceblue;
+}
+
+/* --------------About-------------- */
+.about-img {
+    background-color: #4a4cf5;
+    position: relative;
+}
+
+.about-img:after {
+    background-image: url(../imgs/Printable\ Dot\ Grid\ Paper\ –\ Grid\ Spacing\ 4\ Dots\ Per\ Inch\ –\ Craft\ Ideas\ for\ Kids.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+}
+
+.text-about {
+    color: var(--main-color);
+    letter-spacing: 1px;
+    font-family: Poppins, sans-serif;
+    margin-top: -7px;
+    font-size: 13px;
+}
+
+.about-content p span {
+    color: var(--main-color);
+    font-weight: bolder;
+}
+
+.about-content p {
+    word-spacing: -1px;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+/* Button */
+.btn-download {
+    padding: 6px 20px;
+    background-color: rgb(18, 17, 17);
+    border-style: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn-download:hover {
+    background-color: rgb(255, 253, 253);
+    color: #000000;
+}
+
+.btn-contact {
+    padding: 4px 20px;
+    background-color: transparent;
+    border: solid 3px rgb(0, 0, 0);
+    color: rgb(65, 63, 63);
+}
+
+.btn-contact:hover {
+    background-color: rgb(18, 17, 17);
+    color: rgb(255, 255, 255);
+}
+
+/* --------------Services-------------- */
+
+.title h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.title p {
+    position: relative;
+}
+
+.card-service h3 {
+    padding-top: 11px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.card-service p {
+    padding: 5px 15px 10px;
+    font-size: 13px;
+    color: var(--main-color);
+}
+
+.card-service .icon {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: all 500ms ease;
+    background-color: #d8dee2;
+}
+.card-service .icon i {
+    font-size: 20px;
+}
+.card-service:hover i {
+    color: aliceblue;
+}
+.card-service:hover .icon {
+    background-color: #0d0d0e;
+}
+
+/* --------------portfolio-------------- */
+.portfolio-card:hover .layer {
+    top: 0;
+}
+.portfolio-card .portfolio-img img {
+    transition: all 0.3s;
+}
+.portfolio-card:hover img {
+    transform: scale(1.2);
+}
+.layer {
+    top: 100%;
+    transition: all 0.3s;
+    background-color: rgba(232, 230, 230, 0.347);
+    color: rgb(14, 14, 14);
+    transition: all 0.5s;
+}
+.nav-pills .nav-link.active {
+    background-color: var(--main-color);
+    border-radius: 40%;
+}
+.nav-pills .nav-link {
+    color: black;
+}
+
+/* --------------Client-------------- */
+.carousel-indicators {
+    bottom: -35px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: var(--main-color);
+    border: solid 1px var(--main-color);
+    border-radius: 20%;
+    height: 5px;
+}
+.rounded-circle img {
+    width: 25%
+}
+.client {
+    margin-top: 200px;
+}
+
+/* --------------Contact-------------- */
+.x h3 {
+    padding-top: 12px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.x p {
+    font-size: 12px;
+    color: var(--main-color);
+}
+
+.x .icons {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: all 500ms ease;
+    background-color: #d8dee2;
+}
+.x .icons i {
+    font-size: 18px;
+}
+.x:hover .icons{
+    background-color: #1d1d1e;
+    color: aliceblue;
+}
+
+/* form */
+.form-control {
+    background-color: #f4f4f4;
+    border-style: none;
+    font-size: 13px;
+    width: 35%;
+}
+.form-controll {
+    background-color: #f4f4f4;
+    width: 72%;
+    height: 180px;
+    border-style: none;
+    font-size: 13px;
+}
+.form-control:focus {
+    border-color: var(--main-color);
+    box-shadow: 0 0 0 .25rem var(--main-color);
+}
+.first-inputs {
+    display: flex;
+}
+@media screen and (min-width:720px) {
+    .form-controll {
+        width: 100%;
+    }
+}
+@media screen and (max-width:767px) {
+    .first-inputs {
+        display: block;
+    }
+
+    .first-inputs input {
+        width: 100% !important;
+        margin-top: 16px;
+    }
+}
+
+.btn-Submit {
+    margin-top: 10px;
+    padding: 8px 33px;
+    background-color: rgb(18, 17, 17);
+    border-style: none;
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+}
+
+.btn-Submit:hover {
+    background-color: rgb(255, 253, 253);
+    color: #000000;
+}
+
+/* --------------footer-------------- */
+footer {
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    text-align: center;
+    color: var(--main-color);
+}
+footer p {
+    font-size: 12px;
+}
